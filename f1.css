@@ -1,0 +1,98 @@
+* {
+        border: 1p solid white;
+      }
+      body {
+        margin: 0;
+        background-color: #000000;
+        height: 100vh;
+      }
+      .flex {
+        display: flex;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .baiSe {
+        background-color: #ffffff;
+      }
+      .card {
+        margin: 13px;
+        width: 22%;
+        height: 300px;
+        background-color: #282c34;
+        box-shadow: 0 4px 8px 0 rgba(97, 218, 251, 0.2);
+        transition: 0.3s;
+        border-radius: 7px;
+      }
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(97, 218, 251, 0.2);
+      }
+      .card-imge {
+        width: 100%;
+        border-radius: 7px 7px 0 0;
+      }
+      .name {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-family: "SimSun";
+        font-weight: bold;
+        color: #61dafb;
+      }
+      .scor {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 8px;
+        margin-bottom: 0;
+        font-family: "SimSun";
+        color: #61dafb;
+      }
+      #main {
+        flex: 3;
+        flex-flow: wrap;
+        overflow: auto;
+      }
+      #side {
+        z-index: 1;
+        box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.2);
+        background-color: #282c34;
+        justify-content: end;
+      }
+      .btn {
+        color: #fff;
+        background-color: #61dafb;
+        text-align: center;
+        padding: 5px;
+      }
+      input {
+        outline: none;
+        border: none;
+        color: #61dafb;
+        caret-color: #61dafb;
+        background-color: #191b20;
+        width: 97.75%;
+        height: 26px;
+        border: 2px solid #61dafb;
+      }
+      input::placeholder {
+        color: #61dafb;
+      }
+      #clear {
+        color: #61dafb;
+        background-color: #282c34;
+        text-align: center;
+        padding: 5px;
+        border: 2px solid #61dafb;
+        border-bottom: 0;
+      }
+      #bac {
+        flex: 1;
+      }
+      #bac img {
+        width: 100%;
+
+      }
