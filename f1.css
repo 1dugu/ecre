@@ -96,3 +96,35 @@
         width: 100%;
 
       }
+      .txt-m{
+        padding: 35px;
+        letter-spacing: 2px;
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: "SimSun";
+        font-weight: bolder;
+      }
+      .box-m {
+        position: relative;
+        width: 100%;
+        font-size: 18px;
+      }
+      .box-m img {
+        opacity: 1;
+        transition: opacity 0.5s ease;
+      }
+      .card-m:hover img{
+        opacity: 0.1;
+      }
+      .txt-m {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0);
+        color: #61dafb;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+      }
+      .card-m:hover .txt-m{
+        opacity: 1;
+      }

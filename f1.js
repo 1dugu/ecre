@@ -35,6 +35,12 @@
               "./张铁林.png";
             document.querySelector("p").innerText = "张 铁 林";
             break;
+          //如果是张铁林
+          case "许明杰":
+            document.getElementById("d1").getElementsByTagName("img")[0].src =
+              "./许明杰.jpg";
+            document.querySelector("p").innerText = "许 明 杰";
+            break;
           //狗都不是
           default:
             alert("别查了 这斯人还没登记");
